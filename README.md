@@ -1,2 +1,2 @@
-# soen357
-Repo for the SOEN 357 project
+# Project Watchdog
+A repository for Project Watchdog, a mock application used to unify baby monitor brands
