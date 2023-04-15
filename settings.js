@@ -1,3 +1,10 @@
+// Runs in settings page to detect user input. 
+// When the user clicks the save button, the settings are sent
+// to the server to be stored. The user may activate or deactivate 
+// phone notifications or email notifications. They may also disconnect cameras.
+// Finally, the user may change the name of the baby being monitored.
+// If no name is set, the name of the baby defaults to "Baby Izzy".
+
 import wixData from 'wix-data';
 import wixMembers from 'wix-members';
 
