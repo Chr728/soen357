@@ -1,3 +1,8 @@
+// Detects when the user clicks the submit button on the login page and extracts the inputted
+// username and password. If an input is blank, the user is told to fill all inputs.
+// If all inputs are filled, the data is sent to the server for verification, and the user
+// is either logged in or given an error message depending on whether the username and password are correct.
+
 import { authentication } from 'wix-members';
 import wixLocation from 'wix-location';
 
