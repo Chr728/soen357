@@ -37,7 +37,9 @@ $w.onReady(function () {
 			"userId": email,
 			"phone": true,
 			"email":true,
-			"baby":""
+			"baby":"",
+			"camera1":true,
+			"camera2":true
 		}
 		
 		wixData.save("UserSettings", initialSettings)
