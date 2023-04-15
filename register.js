@@ -1,3 +1,8 @@
+// Used on the register page. On the user attempting to submit their data,
+// verifies that all input fields are filled and sends the data to the server.
+// If the data is valid and the username is not already taken, the account is created 
+// and the user is signed in, else an error is displayed to the user.
+
 import { authentication } from 'wix-members';
 import wixData from 'wix-data';
 import wixLocation from 'wix-location';
