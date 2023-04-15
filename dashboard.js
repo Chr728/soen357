@@ -1,3 +1,6 @@
+// Extracts the name of the baby being monitored, to be displayed on the screen.
+// If no baby name is found, the name is defaulted to "Baby Izzy".
+
 import wixData from 'wix-data';
 import wixMembers from 'wix-members';
 
