@@ -1,3 +1,6 @@
+//Used to run an alert to caretakers to indicate a danger to the child. Also checks for
+//user settings to determine if phone notification and email should be sent for alerts.
+
 import wixData from 'wix-data';
 import {triggeredEmails} from 'wix-crm';
 import wixMembers from 'wix-members';
